@@ -368,7 +368,7 @@
     // Interpolate points.
     _(count+1).times(function(i) {
       var point = path.getPointAtLength((length * i) / count);
-      pts.push(String(__round(point.x))+' '+String(__round(-point.y)));
+      pts.push(String(__round(point.x))+' '+String(__round(point.y)));
     });
 
     // If requested, close the shape.
